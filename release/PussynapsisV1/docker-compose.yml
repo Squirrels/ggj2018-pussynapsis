@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+   pussynapsis:
+      build:
+        context: .
+      expose:
+        - 80
+      restart: always
+      environment:
+        VIRTUAL_HOST: ggj2018.jotadiaz.cl, pussynapsis.jotadiaz.cl
+      container_name: pussynapsis
+
+networks:
+  default:
+    external:
+      name: nginx-proxy
