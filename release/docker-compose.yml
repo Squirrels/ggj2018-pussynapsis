@@ -3,7 +3,7 @@ version: "3"
 services:
    pussynapsis:
       build:
-        context: .
+        context: /latest
       expose:
         - 80
       restart: always
