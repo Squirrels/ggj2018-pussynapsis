@@ -8,4 +8,4 @@
 *.capx.autosave*
 
 # Release non-web binaries
-/release/PussynapsisRelease.zip
+/release/binaries/*
